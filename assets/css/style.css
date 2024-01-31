@@ -1854,6 +1854,21 @@ body,
 	}
 }
 
+.banner-area .content-box .btn-area {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.banner-area .content-box .free-btn {
+	background-color: #00BFA5;
+	color: white;
+	font-size: 16px;
+	padding: 20px 32px;
+	border-radius: 32px;
+	box-shadow: 0px 3px 32px 3px #00897B66;
+}
+
+
 
 /* ============================================================== 
      # Video Button Play
@@ -6056,6 +6071,10 @@ footer.bg-dark .footer-bottom a {
 
 footer.bg-dark .footer-bottom a:hover {
 	color: var(--white);
+}
+
+footer .address ul {
+	display: flex;
 }
 
 
