@@ -1465,8 +1465,18 @@ body,
 
 .banner-area.auto-height .content-box .thumb-inner img:nth-child(2) {
 	position: absolute;
-	right: 0;
-	top: 120px;
+	right: -80px;
+	top: 380px;
+	max-width: 350px;
+	box-shadow: 0 0 10px #cccccc;
+	border-radius: 10px;
+	border: none !important;
+}
+
+.banner-area.auto-height .content-box .thumb-inner img:nth-child(3) {
+	position: absolute;
+	left: -100px;
+	top: 30px;
 	max-width: 350px;
 	box-shadow: 0 0 10px #cccccc;
 	border-radius: 10px;
@@ -4340,6 +4350,21 @@ ul.achivement li .medium {
 
 .team-area .team-items .thumb .social a.instagram {
 	background: #3f729b none repeat scroll 0 0;
+}
+
+.team-area .feature-items .video-area {
+	width: 676px;
+	height: 400px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0px 3px 32px 3px #00897B66;
+}
+
+.team-area .feature-items .video-area video {
+	width: 676px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
 }
 
 
