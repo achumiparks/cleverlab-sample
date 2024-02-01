@@ -2468,6 +2468,12 @@ body,
 	margin-top: -50px;
 }
 
+.about-style-three-area h5 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
 
 /* ============================================================== 
      # About Style Three
@@ -2827,7 +2833,7 @@ body,
 
 .advanced-features-area .af-items .item h4 {
 	font-weight: 900;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 
 .advanced-features-area .af-items .item p {
@@ -2898,21 +2904,25 @@ body,
 }
 
 .advanced-features-area .af-items .item {
-	position: relative;
-	z-index: 1;
 	display: flex;
+	gap: 20px;
 }
 
 
-.advanced-features-area .af-items .icon {
+.advanced-features-area .af-items .item .icon {
 	width: 80px;
 	height: 80px;
-	margin-right: 20px;
+	flex-basis: 80px;
 }
 
-.advanced-features-area .af-items .icon img {
-	width: 80px;
-	height: 80px;
+.advanced-features-area .af-items .item .icon img {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+.advanced-features-area .af-items .item .info {
+	flex-basis: 100%;
 }
 
 
@@ -3231,7 +3241,7 @@ body,
 }
 
 p.detail-text {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .software-feature-area .feature-items h1 {
@@ -3356,6 +3366,10 @@ p.detail-text {
 
 .process-area .info li:last-child::after {
 	display: none;
+}
+
+.process-area h4 {
+	margin-bottom: 6px;
 }
 
 
@@ -4700,6 +4714,7 @@ ul.achivement li .medium {
 .testimonials-area .item p {
 	color: var(--white);
 	opacity: 0.9;
+	font-size: 18px;
 }
 
 
