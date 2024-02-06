@@ -1449,6 +1449,13 @@ body,
 	font-size: 18px;
 	line-height: 32px;
 	margin: 0;
+	/* font-weight: 600; */
+}
+
+
+.banner-area .container .logo {
+	width: 270px;
+	margin-bottom: 24px;
 }
 
 .banner-area.text-center p,
