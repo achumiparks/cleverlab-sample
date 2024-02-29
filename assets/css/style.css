@@ -2493,12 +2493,12 @@ body,
 
 .about-style-three .thumb img:first-child {
 	float: right;
-	max-width: 55%;
+	max-width: 50%;
 	margin-top: 80px;
 }
 
 .about-style-three .thumb img:nth-child(2) {
-	max-width: 53%;
+	max-width: 60%;
 	margin-left: -13%;
 }
 
@@ -3263,13 +3263,22 @@ p.detail-text {
 	padding-left: 35px;
 }
 
+.process-area h4.subtitle {
+	text-transform: capitalize;
+	font-weight: 600;
+	color: var(--color-primary);
+}
+
 .process-area .info h2 {
 	font-weight: 900;
+}
+
+.process-area .info p {
 	margin-bottom: 50px;
 }
 
 .process-area .info li {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	position: relative;
 	z-index: 1;
 	display: flex;
@@ -3332,19 +3341,16 @@ p.detail-text {
 	width: 1px;
 }
 
-.process-area .info li i {
-	display: inline-block;
-	font-size: 45px;
+.process-area .info li .icon {
+	width: 50px;
 	margin-right: 25px;
-	padding-bottom: 20px;
-	font-weight: 100;
-	background: var(--white);
-	color: var(--color-primary);
+	display: inline-block;
 }
 
-.process-area .info li i.fa-cloud-download {
-	font-size: 40px;
-	margin-left: -5px;
+.process-area .info li img {
+	width: 50px;
+	height: 40px;
+	background: #edf5ff;
 }
 
 .process-area .thumb img {
@@ -3352,9 +3358,7 @@ p.detail-text {
 	max-width: 125%;
 }
 
-.process-area.bg-gray .info li i {
-	background: #edf5ff;
-}
+
 
 .process-area .info li::after {
 	position: absolute;
